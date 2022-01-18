@@ -60,17 +60,6 @@ const validateSaleType = (req, res, next) => {
     }
   }
 
-  // products.forEach((product) => {
-  //   if (typeof product.quantity !== 'number') {
-  //     return res.status(UNPROCESSABLE_ENTITY_STATUS).json({
-  //       err: {
-  //         code: 'invalid_data',
-  //         message: 'Wrong product ID or invalid quantity',
-  //       },
-  //     });
-  //   }
-  // });
-
   next();
 };
 
@@ -87,17 +76,6 @@ const validateSaleNumbers = (req, res, next) => {
       });
     }
   }
-
-  // products.forEach((product) => {
-  //   if (product.quantity <= 0) {
-  //     return res.status(UNPROCESSABLE_ENTITY_STATUS).json({
-  //       err: {
-  //         code: 'invalid_data',
-  //         message: 'Wrong product ID or invalid quantity',
-  //       },
-  //     });
-  //   }
-  // });
 
   next();
 };

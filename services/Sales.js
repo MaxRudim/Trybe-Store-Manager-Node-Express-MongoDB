@@ -7,7 +7,6 @@ const {
 } = require('../models/Sales');
 
 const OK_STATUS = 200;
-// const CREATED_STATUS = 201;
 const NOT_FOUND_STATUS = 404;
 const UNPROCESSABLE_ENTITY_STATUS = 422;
 

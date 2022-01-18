@@ -15,7 +15,6 @@ const create = async (req, res) => {
 
 const getAll = async (_req, res) => {
   const { status, data } = await getAllSales();
-  // console.log(data);
   res.status(status).json({ sales: data });
 };
 
